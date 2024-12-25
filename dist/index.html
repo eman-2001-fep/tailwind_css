@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Custom CSS for glow effect */
+    .glow-circle {
+      background: radial-gradient(circle, rgba(8, 79, 199, 0.5) 0%, rgba(8, 79, 199, 0) 70%);
+      filter: blur(40px);
+    }
+  </style>
+</head>
+
+
+<body class="bg-[#1B143F] text-white font-montserrat">
+
+  <!-- Navbar -->
+  <header class="py-5 px-6 md:px-12">
+    <nav class="flex flex-col md:flex-row items-center md:justify-between gap-6">
+      <!-- Logo -->
+      <div class="text-xl font-bold">
+        EducationTemp
+      </div>
+
+      <!-- Links -->
+      <ul class="flex gap-7 list-none">
+        <li><a href="#" class="hover:underline">Home</a></li>
+        <li><a href="#" class="hover:underline">Courses</a></li>
+        <li><a href="#" class="hover:underline">Blog</a></li>
+        <li><a href="#" class="hover:underline">Shop</a></li>
+      </ul>
+
+      <!-- Icons -->
+      <div class="flex items-center gap-4">
+        <img src="images/Cart_icon.svg" alt="Cart Icon" class="w-5">
+        <img src="images/Profile_icon.svg" alt="Profile Icon" class="w-5">
+        <img src="images/Search_icon.svg" alt="Search Icon" class="w-5">
+      </div>
+
+      <!-- Buttons -->
+      <div class="flex gap-6">
+        <button class="hover:underline">Login</button>
+        <button
+          class="bg-transparent text-white py-2.5 px-9 rounded-[30px_0px_30px_0px] border-2 border-white hover:bg-slate-400">
+          Sign up
+        </button>
+      </div>
+    </nav>
+    <div class="border-t-[0.8px] border-[#FFFFFF99] border-opacity-60 w-full border-dashed mt-5"></div>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="relative mx-auto mt-8 w-[90%] max-w-[1050px] h-[450px] rounded-br-[100px] border-2 border-dashed border-[#FFFFFF99]">
+    <!-- Heading -->
+     <div class="bg-[#1B143F]">
+    <h1
+      class="absolute top-2 left-0 right-0 px-6 sm:px-8 py-10 text-[30px] sm:text-[40px]  text-center font-bold -mt-[75px] z-10">
+      Good coaching is good teaching
+    </h1>
+     </div>
+
+    <!-- Paragraph -->
+    <p class="absolute mb-5 text-wrap md:text-nowrap top-[20%] left-1/2 transform -translate-x-1/2 text-[14px] md:text-[17px] lg:text-[18px] text-center z-10 px-4 sm:px-8">
+      In a coaching role, you ask the questions and rely more on your staff, who become the
+      <br> experts, to provide the information.
+    </p>
+
+    <!-- Buttons -->
+    <div
+      class="absolute top-[40%] md:top-[30%] left-1/2 transform -translate-x-1/2 z-10 flex justify-center gap-6 mt-4 md:mt-8 lg:mt-10">
+      <button
+        class=" mt-7 bg-transparent text-white py-2 px-6 sm:px-9 rounded-[0px_30px_0px_30px] border-2 border-white hover:bg-slate-400 text-sm sm:text-base">
+        Join as Student
+      </button>
+      <button
+        class="mt-7 bg-transparent text-white py-2 px-6 sm:px-9 rounded-[0px_30px_0px_30px] border-2 border-white hover:bg-slate-400 text-sm sm:text-base">
+        Join as Instructor
+      </button>
+    </div>
+
+    <!-- Glow Circle -->
+    <div
+      class="absolute top-[60%] left-1/2 transform -translate-x-1/2 w-[400px] h-[400px] sm:w-[600px] sm:h-[600px] lg:w-[700px] lg:h-[700px] rounded-full glow-circle z-0">
+    </div>
+
+    <!-- Rocket Image -->
+    <img src="images/spacecraft.png" alt="Rocket Launch"
+      class="absolute top-[40%] left-1/2 transform -translate-x-1/2 w-[300px] sm:w-[450px] lg:w-[600px] md:mt-10 mt-[70px] ">
+  </div>
+
+</body>
+
+</html>
